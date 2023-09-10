@@ -10,7 +10,7 @@ function setTime() {
   let hour = time.getHours() % 12;
   let am_pm = time.getHours() >= 12 ? "PM" : "AM";
 
-  secondElement.innerHTML = second 
+  secondElement.innerHTML = second
   minuteElement.innerHTML = minute;
   hourElement.innerHTML = hour ;
   am_pmElement.innerHTML = am_pm;
@@ -19,3 +19,6 @@ function setTime() {
 setInterval(() => {
   setTime();
 }, 1000);
+
+
+
